@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: "PT Sans", sans-serif;
+}
+
+.App {
+  text-align: center;
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: 15vh 65vh 20vh;
+}
+
+button {
+  background-color: #21325e;
+  color: #f6f6f6;
+  border: 1px solid #f1d00a;
+  border-radius: 8px;
+  padding: 8px;
+  transition: 0.3s ease-in-out;
+
+  &:hover {
+    color: #21325e;
+    background-color: #f1d00a;
+    border: 1px solid #f6f6f6;
+  }
+}
+
+.nav-links-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 5px;
+}

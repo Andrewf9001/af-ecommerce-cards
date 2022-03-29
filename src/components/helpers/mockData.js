@@ -12,28 +12,43 @@ export const userData = [
 ];
 
 export const shopItem = [
-  { id: 1, name: "EK9", description: "Honda Civic Ek9", image: Ek9 },
+  { id: 1, name: "EK9", description: "Honda Civic Ek9", image: Ek9, count: 0 },
   {
     id: 2,
     name: "Evolution",
     description: "Mitsubishi Evolution MK 9",
     image: Evo9,
+    count: 0,
   },
-  { id: 3, name: "Rx7", description: "Mazda Rx-7 FD", image: Rx7 },
-  { id: 4, name: "S2000", description: "Honda S2000", image: S2000 },
+  { id: 3, name: "Rx7", description: "Mazda Rx-7 FD", image: Rx7, count: 0 },
+  { id: 4, name: "S2000", description: "Honda S2000", image: S2000, count: 0 },
   {
     id: 5,
     name: "Skyline",
     description: "Nissan Skyline GT-R R34",
     image: SkylineR34,
+    count: 0,
   },
-  { id: 6, name: "22B", description: "Subaru 22-B STI", image: Subaru22B },
-  { id: 7, name: "Supra", description: "Toyota Supra MK-IV", image: Supra },
+  {
+    id: 6,
+    name: "22B",
+    description: "Subaru 22-B STI",
+    image: Subaru22B,
+    count: 0,
+  },
+  {
+    id: 7,
+    name: "Supra",
+    description: "Toyota Supra MK-IV",
+    image: Supra,
+    count: 0,
+  },
   {
     id: 8,
     name: "Integra",
     description: "Acura Integra Type-R",
     image: Integra,
+    count: 0,
   },
 ];
 

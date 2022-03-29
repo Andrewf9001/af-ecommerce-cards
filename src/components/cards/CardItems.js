@@ -1,6 +1,6 @@
 import { Component } from "react";
 
-import { shopItem, carImages } from "../helpers/mockData";
+import { shopItem } from "../helpers/mockData";
 
 export default class CardItems extends Component {
   constructor() {
@@ -8,6 +8,7 @@ export default class CardItems extends Component {
 
     this.state = {
       data: [...shopItem],
+      count: 0,
     };
   }
 
@@ -21,10 +22,15 @@ export default class CardItems extends Component {
             <img height="70%" width="75%" src={item.image} />
             <h1>{item.name}</h1>
             <div>{item.description}</div>
+            <div>{this.state.count}</div>
           </div>
 
           <div className="card-btn">
-            <button>Action Button</button>
+            <button
+              onClick={() => this.setState({ count: this.state.count + 1 })}
+            >
+              Action Button
+            </button>
           </div>
         </div>
       );

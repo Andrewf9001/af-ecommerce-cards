@@ -11,7 +11,12 @@ body {
 }
 
 button {
-  background-color: #21325e;
+  background: linear-gradient(
+    167deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(58, 1, 167, 1) 5%,
+    rgba(0, 0, 0, 1) 100%
+  );
   color: #f6f6f6;
   border: 1px solid #f1d00a;
   border-radius: 8px;
@@ -19,8 +24,7 @@ button {
   transition: 0.3s ease-in-out;
 
   &:hover {
-    color: #21325e;
-    background-color: #f1d00a;
+    color: #f1d00a;
     border: 1px solid #f6f6f6;
   }
 }
